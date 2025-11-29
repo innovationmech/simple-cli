@@ -253,4 +253,3 @@ func (h *OrderHandler) RegisterRoutes(router *gin.Engine) {
 		orders.POST("/:id/cancel", h.CancelOrder)
 	}
 }
-

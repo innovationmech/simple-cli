@@ -21,4 +21,3 @@ func (m *ProductModule) Init(container *app.Container) error {
 func (m *ProductModule) RegisterRoutes(router *gin.Engine) {
 	m.handler.RegisterRoutes(router)
 }
-

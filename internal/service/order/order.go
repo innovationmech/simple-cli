@@ -115,4 +115,3 @@ func isValidStatusTransition(from, to model.OrderStatus) bool {
 	}
 	return false
 }
-

@@ -15,4 +15,3 @@ type OrderService interface {
 	CancelOrder(ctx context.Context, id string) error
 	ListOrdersByUser(ctx context.Context, userID string, page, pageSize int) ([]*model.Order, int64, error)
 }
-

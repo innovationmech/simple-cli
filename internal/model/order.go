@@ -89,4 +89,3 @@ type CancelOrderResponse struct {
 	ID     string      `json:"id"`
 	Status OrderStatus `json:"status"`
 }
-

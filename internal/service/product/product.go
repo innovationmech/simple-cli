@@ -71,4 +71,3 @@ func (s *productService) ListProducts(ctx context.Context, page, pageSize int) (
 	}
 	return s.config.ProductRepository.ListProducts(ctx, offset, pageSize)
 }
-

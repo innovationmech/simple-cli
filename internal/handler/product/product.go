@@ -272,4 +272,3 @@ func (h *ProductHandler) RegisterRoutes(router *gin.Engine) {
 		products.DELETE("/:id", h.DeleteProduct)
 	}
 }
-

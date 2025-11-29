@@ -61,4 +61,3 @@ func (r *productRepository) ListProducts(ctx context.Context, offset, limit int)
 
 	return products, total, nil
 }
-

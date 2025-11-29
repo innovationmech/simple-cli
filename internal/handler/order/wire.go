@@ -25,4 +25,3 @@ func InitializeOrderHandler(db *gorm.DB) (*OrderHandler, error) {
 	wire.Build(OrderProviderSet)
 	return nil, nil
 }
-

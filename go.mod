@@ -8,10 +8,16 @@ require (
 	github.com/google/wire v0.7.0
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/viper v1.21.0
+	go.uber.org/fx v1.24.0
 	gorm.io/gorm v1.31.1
 )
 
-require github.com/mattn/go-sqlite3 v1.14.22 // indirect
+require (
+	github.com/mattn/go-sqlite3 v1.14.22 // indirect
+	go.uber.org/dig v1.19.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
+	go.uber.org/zap v1.26.0 // indirect
+)
 
 require (
 	github.com/bytedance/gopkg v0.1.3 // indirect

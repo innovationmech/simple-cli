@@ -15,4 +15,3 @@ type ProductService interface {
 	DeleteProduct(ctx context.Context, id string) error
 	ListProducts(ctx context.Context, page, pageSize int) ([]*model.Product, int64, error)
 }
-

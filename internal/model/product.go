@@ -75,4 +75,3 @@ type ListProductsResponse struct {
 	Products []GetProductResponse `json:"products"`
 	Total    int64                `json:"total"`
 }
-
